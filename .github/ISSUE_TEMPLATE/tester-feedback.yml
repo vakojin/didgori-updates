@@ -1,0 +1,35 @@
+name: "ტესტირების შედეგი / Tester feedback"
+description: "DIDGORI-ის საცდელი ვერსიის ხარვეზი ან ტესტირების შედეგი"
+title: "[ტესტირება] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: "თამაშის ვერსია / Game version"
+      description: "საინსტალაციოს ფაილის სახელი ან თამაშში ნაჩვენები ვერსია."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "რა გააკეთე? / Steps"
+      description: "არჩეული ქვეყანა, რუკა და პრობლემამდე შესრულებული მოქმედებები."
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: "რა მოხდა? / Actual and expected result"
+      description: "რა გამოჩნდა და როგორ უნდა ემუშავა? გაჭედვისას მიუთითე რამდენ ხანში მოხდა."
+    validations:
+      required: true
+  - type: textarea
+    id: hardware
+    attributes:
+      label: "კომპიუტერი / Computer"
+      description: "Windows, პროცესორი, ვიდეოკარტა, RAM და ეკრანის გარჩევადობა, თუ იცი."
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "ვიდეო, სურათი ან ლოგი / Evidence"
+      description: "შეგიძლია დაურთო პრობლემის ჩანაწერი. პაროლები და პირადი ფაილები საჭირო არ არის."
